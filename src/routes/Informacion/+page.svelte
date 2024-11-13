@@ -9,6 +9,7 @@
   import contenedorr from '$lib/images/tacho-de-reciclaje.png';
 	import CardsCollection from '$lib/components/CardsCollection.svelte';
 	import papelera from '$lib/images/papelera-de-reciclaje.png';
+	import Menu from '$lib/components/Menu.svelte';
 
 	let activeActivity: string | null = $state(null);
 

@@ -5,6 +5,7 @@
 		<a href="/Actividades">Actividades</a>
 		<a href="/Informacion">Información</a>
 		<a href="/Metas">Mis metas</a>
+        <a href="/Botella">Botella de Amor</a>
 	</nav>
 </header>
 <style>
