@@ -8,3 +8,9 @@ export const usuarios = sqliteTable("usuarios", {
 	password: text("password").notNull(),
 	token: text("token"),
 });
+
+export const actividades = sqliteTable("actividades", {
+	id: integer("id").primaryKey(),
+	correo: text("correo").notNull(),
+	puntos: integer("puntos").notNull(),
+});
