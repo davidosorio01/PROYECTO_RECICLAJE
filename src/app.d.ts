@@ -9,6 +9,7 @@ declare global {
 				correo: string | null
 				password: string | null
 				token: string | null
+				puntos: number | null
 			}
 			
 		 }
