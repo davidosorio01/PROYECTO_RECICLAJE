@@ -1,8 +1,6 @@
 <script>
-    import Menu from '$lib/components/Menu.svelte'
-    let{children} = $props()
+    export let children;   
     import '../app.css'
-    
 </script>
 
 {@render children()}
